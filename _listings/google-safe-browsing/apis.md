@@ -28,7 +28,7 @@ apis:
   tags: Threats
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatlists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatmatches-find-post.md
 x-common:
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
