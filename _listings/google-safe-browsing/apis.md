@@ -14,8 +14,8 @@ tags:
 - Privacy
 - Links
 - Google APIs
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -28,7 +28,7 @@ apis:
   tags: Threats
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatmatches-find-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatlistupdates-fetch-post.md
 x-common:
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
