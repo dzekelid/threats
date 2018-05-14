@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Safe Browsing
-  description: The Safe Browsing API is an experimental API that allows client applications
-    to check URLs against Google's constantly-updated blacklists of suspected phishing
-    and malware pages. Your client application can use the API to download an encrypted
-    table for local, client-side lookups of URLs.
+  title: Google Safe Browsing API Find Threat Entry
+  description: Finds the threat entries that match the Safe Browsing lists.
   contact:
     name: Google
     url: https://google.com
