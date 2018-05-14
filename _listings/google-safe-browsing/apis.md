@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatmatches-find-post.md
-- name: Google Safe Browsing API List Threats
-  description: Lists the Safe Browsing threat lists available for download.
+- name: Google Safe Browsing API Find Threat Entry
+  description: Finds the threat entries that match the Safe Browsing lists.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png
   humanURL: https://developers.google.com/safe-browsing/
   baseURL: http:://safebrowsing.googleapis.com//
   tags: Threats
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatlists-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatlists-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatmatches-find-post.md
 x-common:
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
