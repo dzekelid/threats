@@ -29,7 +29,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatmatches-find-post.md
+- name: Google Safe Browsing API List Most Recent Threats
+  description: |-
+    Fetches the most recent threat list updates. A client can request updates
+    for multiple lists at once.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png
+  humanURL: https://developers.google.com/safe-browsing/
+  baseURL: http:://safebrowsing.googleapis.com//
+  tags: Threats
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/threats/master/_listings/google-safe-browsing/v4-threatlistupdates-fetch-post.md
 x-common:
+- type: x-documentation
+  url: https://developers.google.com/safe-browsing/v4/
+- type: x-forum
+  url: http://groups.google.com/group/google-safe-browsing-api
+- type: x-getting-started
+  url: https://developers.google.com/safe-browsing/v4/get-started
+- type: x-website
+  url: https://developers.google.com/safe-browsing/
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
 - type: x-forum
